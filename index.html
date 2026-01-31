@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albar | Cybersecurity Engineer</title>
+    <meta name="description"
+        content="Portfolio of Albar, a Cybersecurity Engineer specializing in SOC automation, network defense, and open-source security.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="dark-theme">
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">ALBAR<span>_</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">Mission</a></li>
+                <li><a href="#expertise">Expertise</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                    </button></li>
+                <li><a href="https://www.linkedin.com/in/albar-hossain/" class="contact-btn" target="_blank">Hire Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1 class="glitch-text" data-text="I am Albar.">I am Albar.</h1>
+                    <h2 class="subtitle">Cybersecurity Engineer & Open-Source Security Advocate</h2>
+                    <p class="lead-text">Specializing in secure system design, SOC automation, and network defense.</p>
+                    <div class="hero-ctas">
+                        <a href="#projects" class="primary-btn">View Projects</a>
+                        <a href="#contact" class="secondary-btn">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="image-wrapper">
+                        <img src="assets/profile.jpg" alt="Albar" id="profile-img">
+                        <div class="violet-aura"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="mission-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">/ My Mission</span>
+                    <h2>Redefining Defense</h2>
+                </div>
+                <div class="mission-body">
+                    <p>I am a Computer Science & Engineering graduate from AIUB with a discipline-driven approach to
+                        global cybersecurity. I bridge the gap between network infrastructure and proactive threat
+                        hunting, with a core belief that open-source tools are the future of digital defense.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="expertise" class="expertise-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">/ Professional Skills</span>
+                    <h2>My Expertise</h2>
+                </div>
+                <div class="expertise-grid">
+                    <div class="expertise-card">
+                        <i class="fas fa-shield-halved"></i>
+                        <h3>SOC & Automation</h3>
+                        <p>Implementing Wazuh/Splunk SIEM and automating workflows via Shuffle/Tracecat SOAR.</p>
+                    </div>
+                    <div class="expertise-card">
+                        <i class="fas fa-network-wired"></i>
+                        <h3>Network Defense</h3>
+                        <p>Managing OPNsense/pfSense firewalls and Suricata IDS/IPS for real-time threat prevention.</p>
+                    </div>
+                    <div class="expertise-card">
+                        <i class="fas fa-server"></i>
+                        <h3>Web & Server Security</h3>
+                        <p>Hardening Apache servers with ModSecurity WAF and managing Linux CLI environments.</p>
+                    </div>
+                    <div class="expertise-card">
+                        <i class="fas fa-magnifying-glass-chart"></i>
+                        <h3>Threat Intel & Forensics</h3>
+                        <p>Utilizing DFIR-IRIS for incident response and GRR for remote forensics.</p>
+                    </div>
+                    <div class="expertise-card">
+                        <i class="fas fa-database"></i>
+                        <h3>Data Science for Security</h3>
+                        <p>Processing raw security logs into actionable intelligence using Python, SQL, and Pandas.</p>
+                    </div>
+                    <div class="expertise-card">
+                        <i class="fas fa-microchip"></i>
+                        <h3>Virtualization</h3>
+                        <p>Designing secure, isolated testing environments using VMware and Proxmox.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tools" class="tools-section">
+            <div class="container">
+                <div class="section-header-centered">
+                    <h2>Tools</h2>
+                    <p>Security tools that I've explored.</p>
+                </div>
+                <div class="tools-grid">
+                    <div class="tool-card"><img src="assets/logos/wazuh.png" alt="Wazuh" class="light-icon"></div>
+                    <div class="tool-card"><img src="assets/logos/splunk.png" alt="Splunk" class="light-icon"></div>
+                    <div class="tool-card"><img src="assets/logos/Tracecat.png" alt="Tracecat"></div>
+                    <div class="tool-card"><img src="assets/logos/shuffle.avif" alt="Shuffle" class="light-icon"></div>
+                    <div class="tool-card"><img src="assets/logos/elastic.png" alt="Elastic"></div>
+                    <div class="tool-card"><img src="assets/logos/modsecurity.png" alt="ModSecurity"></div>
+                    <div class="tool-card"><img src="assets/logos/suricata.jpeg" alt="Suricata"></div>
+                    <div class="tool-card"><img src="assets/logos/zeek.png" alt="Zeek" class="light-icon"></div>
+                    <div class="tool-card"><img src="assets/logos/opnsense.svg" alt="OPNsense"></div>
+                    <div class="tool-card"><img src="assets/logos/iris.png" alt="IRIS" class="light-icon"></div>
+                    <div class="tool-card"><img src="assets/logos/thehive.png" alt="The Hive"></div>
+                    <div class="tool-card"><img src="assets/logos/cortex.png" alt="Cortex" class="light-icon"></div>
+                    <div class="tool-card"><img src="assets/logos/grr.png" alt="GRR"></div>
+                    <div class="tool-card"><img src="assets/logos/pfsense.svg" alt="pfSense"></div>
+                    <div class="tool-card"><img src="assets/logos/proxmox.svg" alt="Proxmox" class="light-icon"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="metrics" class="metrics-section">
+            <div class="container metrics-container">
+                <div class="metric-item">
+                    <span class="metric-number">10+</span>
+                    <span class="metric-label">Open Source Tools Mastered</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-number">3+</span>
+                    <span class="metric-label">Global Security Certifications</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-number">1</span>
+                    <span class="metric-label">Published Research Framework</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-number">2+</span>
+                    <span class="metric-label">Years Analytical Experience</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Cybersecurity Projects and Research</h2>
+                    <p class="section-subtitle">My research and documentation of security tools and threat detection
+                        frameworks I've
+                        explored.</p>
+                </div>
+                <div class="projects-grid">
+                    <!-- X-SIEM Card -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-brain project-icon"></i>
+                            <h3>The X-SIEM Framework</h3>
+                        </div>
+                        <div class="project-body">
+                            <p>A novel framework integrating Machine Learning and Large Language Models to enhance
+                                Threat Intelligence and automate SOC workflows.</p>
+                            <ul class="project-features">
+                                <li>LLM-driven threat analysis and correlation.</li>
+                                <li>Automated incident triage and response.</li>
+                                <li>Real-time anomaly detection using ML.</li>
+                            </ul>
+                            <div class="project-tags">
+                                <span class="tag">SIEM</span>
+                                <span class="tag">Machine Learning</span>
+                                <span class="tag">Threat Intel</span>
+                            </div>
+                            <a href="assets/Projects/X-SIEM Framework.pdf" target="_blank" class="project-btn"
+                                title="View X-SIEM Paper">
+                                <i class="fas fa-file-alt"></i> View Paper
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Suricata Card -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-shield-alt project-icon"></i>
+                            <h3>SURICATA IDS/IPS</h3>
+                        </div>
+                        <div class="project-body">
+                            <p>Comprehensive documentation on Suricata, a high-performance Network IDS, IPS, and Network
+                                Security Monitoring engine.</p>
+                            <ul class="project-features">
+                                <li>Real-time intrusion detection and prevention.</li>
+                                <li>Protocol identification and deep packet inspection.</li>
+                                <li>Multi-threaded architecture for high-speed networks.</li>
+                            </ul>
+                            <div class="project-tags">
+                                <span class="tag">IDS/IPS</span>
+                                <span class="tag">Network Security</span>
+                                <span class="tag">Threat Detection</span>
+                            </div>
+                            <a href="assets/Projects/Suricata.pdf" target="_blank" class="project-btn"
+                                title="View Suricata Documentation">
+                                <i class="fas fa-file-alt"></i> View Documentation
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- YARA Card -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-search project-icon"></i>
+                            <h3>YARA Rules</h3>
+                        </div>
+                        <div class="project-body">
+                            <p>In-depth exploration of YARA, a pattern matching tool used to identify and classify
+                                malware samples.</p>
+                            <ul class="project-features">
+                                <li>Creating custom rules for malware detection.</li>
+                                <li>Pattern matching and signature-based analysis.</li>
+                                <li>Integration with threat intelligence workflows.</li>
+                            </ul>
+                            <div class="project-tags">
+                                <span class="tag">Malware Analysis</span>
+                                <span class="tag">Pattern Matching</span>
+                                <span class="tag">Threat Intelligence</span>
+                            </div>
+                            <a href="assets/Projects/yara.pdf" target="_blank" class="project-btn"
+                                title="View YARA Documentation">
+                                <i class="fas fa-file-alt"></i> View Documentation
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Zeek Card -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-globe project-icon"></i>
+                            <h3>ZEEK Network Analysis</h3>
+                        </div>
+                        <div class="project-body">
+                            <p>Detailed study of Zeek (formerly Bro), a powerful network analysis framework for
+                                monitoring network traffic.</p>
+                            <ul class="project-features">
+                                <li>Network traffic analysis and logging.</li>
+                                <li>Script-based event-driven architecture.</li>
+                                <li>Detection of anomalies and security incidents.</li>
+                            </ul>
+                            <div class="project-tags">
+                                <span class="tag">Network Monitoring</span>
+                                <span class="tag">Traffic Analysis</span>
+                                <span class="tag">Security Analytics</span>
+                            </div>
+                            <a href="assets/Projects/zeek.pdf" target="_blank" class="project-btn"
+                                title="View Zeek Documentation">
+                                <i class="fas fa-file-alt"></i> View Documentation
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">/ Career Evolution</span>
+                    <h2>Experience Timeline</h2>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Current</div>
+                        <div class="timeline-content">
+                            <h3>Rates & Tariffs Analyst</h3>
+                            <h4>Vervantis Inc</h4>
+                            <p>Data automation and remote collaboration in multicultural teams.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Past</div>
+                        <div class="timeline-content">
+                            <h3>Network Support Engineer (Intern)</h3>
+                            <h4>InfoLink Ltd</h4>
+                            <p>NOC operations and core network troubleshooting.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p class="tagline">Privacy is a Human Right and It Belongs To You.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/albar-hossain/" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/albar-hossain" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:albarhossain@gmail.com" class="contact-footer-btn">Contact Me</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Albar Hossain. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
