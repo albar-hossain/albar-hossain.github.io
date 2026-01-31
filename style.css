@@ -7,6 +7,7 @@
     --text-muted: #9ca3af;
     --nav-bg: rgba(10, 10, 10, 0.8);
     --border-color: rgba(168, 85, 247, 0.1);
+    --secondary-btn-border: rgba(255, 255, 255, 0.2);
     --neon-glow: 0 0 10px rgba(168, 85, 247, 0.4), 0 0 20px rgba(168, 85, 247, 0.2);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -18,6 +19,7 @@
     --text-muted: #475569;
     --nav-bg: rgba(248, 250, 252, 0.8);
     --border-color: rgba(168, 85, 247, 0.1);
+    --secondary-btn-border: rgba(15, 23, 42, 0.15);
     --neon-glow: 0 0 10px rgba(168, 85, 247, 0.2);
 }
 
@@ -272,7 +274,7 @@ h3 {
     color: var(--text-main);
     text-decoration: none;
     font-weight: 600;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid var(--secondary-btn-border);
     border-radius: 4px;
     transition: var(--transition-smooth);
 }
@@ -610,6 +612,16 @@ section {
 .project-card:nth-child(4) .project-icon {
     color: #38bdf8;
     /* Sky Blue for Zeek */
+}
+
+.project-card:nth-child(5) .project-icon {
+    color: #fb7185;
+    /* Red/Rose for ModSecurity */
+}
+
+.project-card:nth-child(6) .project-icon {
+    color: #fbbf24;
+    /* Amber/Yellow for GRR */
 }
 
 .project-header h3 {
